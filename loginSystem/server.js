@@ -17,7 +17,7 @@ app.set('view engine','ejs');
 
 
 //load statis assets
-app.use('/static',express.static(path.join(__dirname,'public/stylesheets')))
+app.use('/static',express.static(path.join(__dirname,'public/style')))
 
 app.use(session({
   secret: uuidv4(), 
