@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-image: url('https://i.pinimg.com/originals/c3/f6/e1/c3f6e155f7746c992cc0caca05526a77.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.center-div{
+  padding-top: 10%;
+}
+
+.btn.btn.sucess{
+  padding: .4em 2em;
+}
+
+form{
+  padding: 0 3em;
+}
+
+#login.title>span{
+  font-size: .8em;
+}
